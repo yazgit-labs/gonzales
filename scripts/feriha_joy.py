@@ -7,7 +7,7 @@ from sensor_msgs.msg import Joy
 import math
 
 
-cmdvel = rospy.Publisher("/feriha/cmd_vel", Twist, queue_size=1)
+cmdvel = rospy.Publisher("/gonzales/cmd_vel", Twist, queue_size=1)
 
 def callback(data):
     global cmdvel
@@ -22,7 +22,7 @@ def callback(data):
 def main():
     
     rospy.Subscriber("/joy", Joy, callback)
-    rospy.init_node("Feriha_joystick", anonymous=True)
+    rospy.init_node("Gonzales_joystick", anonymous=True)
     rate = rospy.Rate(10) 
 
     rate.sleep()

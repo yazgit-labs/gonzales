@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>ferihabot</name>
+  <name>Gonzales</name>
   <version>0.0.0</version>
-  <description>The ferihabot package</description>
+  <description>The gonzales package</description>
 
   <maintainer email="emircem.gezer@gmail.com">Emir Cem Gezer</maintainer>
   <maintainer email="rootofarch@gmail.com">Hüseyin Erdem</maintainer>
@@ -12,7 +12,7 @@
   <license>GNUv3</license>
 
 
-  <!-- <url type="website">http://wiki.ros.org/ferihabot</url> -->
+  <!-- <url type="website">http://wiki.ros.org/gonzales</url> -->
   <author email="emircem.gezer@gmail.com">Emir Cem Gezer</author>
   <author email="rootofarch@gmail.com">Hüseyin Erdem</author>
   <author email="behcet.senturk.1905@gmail.com">Behçet Şentürk</author>
